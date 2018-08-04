@@ -92,19 +92,19 @@ def new_issue():
         i += 1
 
 
-def issue_invoice_baruei():
+def issue_invoice_barueri():
           
     vat_number_invoice()      
     service_code()
     amount_invoice()
-    text_body_invoice() #class for body
-    due_date_invoice()  #class for body      
+    text_body_invoice() 
+    due_date_invoice()     
     confirm_invoice()   
     save_invoice()   
     next_index()       
     new_issue()
 
-issue_invoice_baruei()
+issue_invoice_barueri()
 
 
             
