@@ -1,4 +1,3 @@
-
 import pyautogui
 import time
 import pandas as pd
@@ -37,13 +36,13 @@ def amount_invoice():
 
 def text_body_invoice():
     time.sleep(2)
-    description = (df['Descrição'][0])
+    description = (df['Description'][0])
     pyautogui.typewrite(str(description))
 
 
 def due_date_invoice():    
     time.sleep(1)
-    due_date = (df['Vencimento'][0])
+    due_date = (df['Due date'][0])
     br_format_date = due_date.strftime('%d/%m/%Y')
     pyautogui.typewrite(str(br_format_date))
 
@@ -92,19 +91,17 @@ def new_issue():
         i += 1
 
 
-def issue_invoice_barueri():
+def issue_invoice_baruei():
           
     vat_number_invoice()      
     service_code()
     amount_invoice()
     text_body_invoice() 
-    due_date_invoice()     
+    due_date_invoice()      
     confirm_invoice()   
     save_invoice()   
     next_index()       
     new_issue()
 
-issue_invoice_barueri()
-
-
+issue_invoice_baruei()
             
