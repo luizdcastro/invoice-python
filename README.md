@@ -6,10 +6,8 @@ This application/script was created to automatization of invoice issuance flow b
 
 Required libraries and documentations:
 
-PyAutoGUI 
-Documentation - https://pyautogui.readthedocs.io/en/latest/
+- PyAutoGUI documentation - https://pyautogui.readthedocs.io/en/latest/
 
-Pandas
-Documentation - https://pandas.pydata.org/pandas-docs/stable/
+- Pandas documentation - https://pandas.pydata.org/pandas-docs/stable/
 
 
